@@ -2819,7 +2819,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.8;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2838,7 +2838,7 @@
 			}
 
 			.tiles article:hover:before {
-				opacity: 0;
+				opacity: 0.7;
 			}
 
 			.tiles article.is-transitioning {
@@ -3069,10 +3069,14 @@
 
 				.spotlights > section > .image {
 					width: 100%;
+					max-width: 500px;
+					// margin: 0 auto;
+					margin-left: 3em;
 				}
 
 				.spotlights > section > .content {
 					padding: 4em 3em 2em 3em ;
+					padding-top: 1em;
 					width: 100%;
 				}
 
@@ -3082,6 +3086,11 @@
 
 			.spotlights > section > .content {
 				padding: 3em 1.5em 1em 1.5em ;
+				padding-top: 0;
+			}
+
+			.spotlights > section > .image {
+				margin-left: 0;
 			}
 
 		}
@@ -3736,7 +3745,9 @@
 		}
 
 /* Footer */
-
+	#footer {
+		padding: 50px 20px 20px;
+	}
 	#footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
