@@ -8,7 +8,7 @@ subtitle: How we created a lightweight coaching support system - in partnership 
 	<ul>
 		<li>Project website: <a href="https://supergoodlife.co/" target="_blank">supergoodlife.co</a></li>
 		<li>WiseBits Role: strategy, design, development, marketing (as co-founder)</li>
-		<li>Customers: italian knowledge workers</li>
+		<li>Customers: italian professionals</li>
 		<li>Languages: Italian</li>
 		<li>Project live on: June 2016</li>
 		<li>Geographical reach: Italy.</li>
@@ -18,7 +18,7 @@ subtitle: How we created a lightweight coaching support system - in partnership 
 {% include spotlight.html headline="At a glance" text=text image="supergoodlife.overview" %}
 
 {% capture text %}
-	How can you support people to take action, after reading online how-to articles about productivity and management?
+	How can you support people to take action, after reading online how-to articles about professional development?
 {% endcapture %}
 {% include spotlight.html headline="The challenge" text=text image="supergoodlife.challenge" %}
 
